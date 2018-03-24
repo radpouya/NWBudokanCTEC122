@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="en">
+<!--
+    Author Name: Pouya Rad
+    Assignment : Updated About Page
+    Due Date   : 09/01/2017
+-->
+
+<head>
+    <meta charset="utf-8" />
+    <title>About the NW Budokan</title>
+    <link href="project.css" rel="stylesheet" />
+</head>
+
+<body id="about_body">
+    <div id="pagewrapper">
+        <header>
+            <img src="logo.png" alt="Northwest Budokan Logo" width="767" height="108" />
+            <nav>
+                <ul>
+                    <li>
+                        <a href="welcome.html"><img src="button_welcome.png" alt="Welcome Page" width="137" height="40" /></a>
+                    </li>
+                    <li>
+                        <a href="services.html"><img src="button_services.png" alt="Services Page" width="134" height="40"/></a>
+                    </li>
+                    <li>
+                        <a href="order.html"><img src="button_order.png" alt="Order Page" width="106" height="40"/></a>
+                    </li>
+                    <li>
+                        <a href="about.html"><img src="button_about.png" alt="About Page" width="106" height="40"/></a>
+                    </li>
+                </ul>
+            </nav>  <!-- end of nav -->
+        </header>  <!-- end of header -->
+
+        <aside>
+        	<h2>About the Northwest Budokan</h2>
+            <!-- BEGIN CODE FOR TODAYS DATE -->
+            <span id="jsDate"></span>
+            <script>
+            var todaysDate = new Date();
+            document.getElementById('jsDate').innerHTML = todaysDate.toLocaleDateString();
+            </script> 
+            <!-- END CODE FOR TODAYS DATE -->
+            <p>This page provides some information about our martial arts school. This includes how it came to be, who we are, where we train, and more.</p>
+            <p>If you are interested in finding out more information, please feel free to request an information pamphlet by filling out the form on our Order page or by sending us an email (nwbudokan@gmail.com) or even dropping by while class is in session to speak with the chief instructor. </p>
+            <p>Also, feel free to like us on Facebook to stay up to date on events.</p>
+            <!-- Begin facebook "Like" Code -->
+            <div id="facebookscript">
+                <div id="fb-root"></div>
+                <script>
+                    (function(d, s, id) {
+                    var js, fjs = d.getElementsByTagName(s)[0];
+                    if (d.getElementById(id)) return;
+                    js = d.createElement(s); js.id = id;
+                    js.src = "//connect.facebook.net/en_US/all.js#xfbml=1&appId=6811732125";
+                    fjs.parentNode.insertBefore(js, fjs);
+                    }(document, 'script', 'facebook-jssdk'));
+                </script>
+                <div class="fb-like" data-href="https://www.facebook.com/NaydnovGymnastics" data-width="50" data-layout="button" data-action="like" data-show-faces="true" data-share="true"></div>
+                <!-- End facebook "Like" Code -->
+            </div>
+        </aside> <!-- end sidebar -->
+            
+
+        <div id="content">
+            <p>
+                The <strong>Northwest Budokan</strong> is one of the longest standing
+                martial arts schools in the Vancouver, Washington area. Established in October
+                of 1996 by Zachary Hanks, the school has promoted the dissemenation
+                of three traditional martial arts: <em>Shotokan Karate</em>, <em>Japanese 
+                Ju-Jitsu</em>, and <em>Ryukyu Kobudo</em>.
+            </p>
+            <img src="Sensei.jpg" alt="Zac Hanks" class="zac_pic" width="150" height="170">
+            <p>
+                As an established expert with twenty-five years of training in Japanese martial arts, Hanks is referred to by the title “Sensei”, meaning “one who has been before” or more colloquially, “instructor”. Sensei Hanks created the entire curriculum for the program, and oversees all 
+                instruction, lesson plans, promotions, specialty seminars, and extra-curricular events. Sensei Hanks holds many competitive karate titles in fighting, forms, and weapons. He has also received much acclaim for his success as a children’s coach, and as a nationally certified referee.
+            </p>
+            <p>
+                The Northwest Budokan is located at Naydenov Gymnastics, in the
+                rear of the second gym. Naydenov's is located near the Vancouver
+                Mall. Classes are ongoing throughout the year, taking place on 
+                Tuesday and Thursday evenings from 5:30 pm - 7:30 pm.
+            </p>
+            <span class="naydenov"><img src="naydenov.jpg" alt="Naydenov Gymnastics" class="naydenov_pic" width="472" height="120"></span>
+
+        </div>  <!-- end of content -->
+          
+        <footer>
+            <ul>
+                <li><a href="welcome.html" title="Welcome Page">Welcome</a></li>
+                <li><a href="services.html" title="Services Page">Services</a></li>
+                <li><a href="order.html" title="Order Page">Order</a></li>
+                <li><a href="about.html" title="About Page">About</a></li>
+            </ul>
+            <p id="copyright">&copy; 2017 Northwest Budokan</p>
+        </footer>  <!-- end of footer -->
+    
+    </div>  <!-- end of pagewrapper -->
+  
+</body>
+</html>

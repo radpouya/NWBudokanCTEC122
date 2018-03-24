@@ -1,0 +1,205 @@
+/* 
+ * Author Name: Pouya Rad
+ * Assignment : Project Website
+ * Due Date   : 09/01/2017
+ * CSS for Project Website 
+*/
+
+/* Colors: Royal Blue #4169E1, Slate Grey #708090, Light Grey #D3D3D3, Floral White #FFFAF0 */
+
+body    {
+            font-family: Verdana, Arial, Helvetica, sans-serif;
+            font-size: 1em;
+            background-color:#ffffff;
+            color:#000000;
+            margin:0;
+            padding:0;
+            width: 100%;
+        }
+
+#pagewrapper 	{
+					background: #708090;
+				}
+
+header 	{
+				background: #D3D3D3;
+				padding: 1% 0%;
+				text-align: center;
+				border-bottom: 4px solid #000000;
+			}
+
+nav 	{
+			background: #708090;
+			padding: 1% 1% 1% 1%;
+			text-align: center;
+			border-top: 5px solid #000000;
+			border-bottom: 5px solid #000000;
+		}
+
+nav ul, footer ul 	{
+							margin: 0;
+							padding: 0;
+							list-style: none;
+						}
+
+nav li, footer li 	{
+							display: inline;
+							margin: 0;
+							padding: 0;
+						}
+
+aside 	{
+				background: #4169E1;
+				float: left;
+				width: 30%;
+				font-size: .9em;
+				padding: 1%;
+				border-left: 2px solid #000000;
+				border-bottom: 2px solid #000000;
+				border-right: 2px solid #000000;
+			}
+
+#content 	{
+				background: #4169E1;
+				float: right;
+				width: 65%;
+				padding: 1%;
+				text-align: center;
+				border-left: 2px solid #000000;
+				border-right: 2px solid #000000;
+			}
+
+
+#about_body #content {
+	text-align: justify;
+}
+
+#about_body #content img {
+	margin: 10px;
+	display: inline-block;
+	float: right;
+}
+
+.naydenov {
+	text-align: left;
+	margin: auto;
+	display: inline-block;
+}
+
+#products_body #content 	{
+	text-align: left;
+}
+
+#products_body ol 	{
+	list-style-type: upper-roman;
+}
+
+#products_body ol ul 	{
+	list-style-type: square;
+}
+
+#content img 	{
+					border: 6px ridge #000000;
+					display: inline-block;
+					margin: 0 20px 0 20px;
+				}
+
+#products_body #content img 	{
+	margin: 10px;
+	display: inline-block;
+	float: right;
+}
+
+#formheading {
+	width: 96%;
+}
+
+#formheading h1 {
+	color: #FFFFFF;
+	text-align: left;
+	padding: 0 .5em .5em .5em;
+}
+
+#order_body #content label {
+	float: left;
+	width: 10em;
+	margin: 1%;
+	text-align: left;
+	display: inline-block;
+}
+
+#order_body #content input {
+	text-align: left;
+	float: left;
+	margin: 1%;
+}
+
+#mailing legend, #contact legend, #personal_info legend, #order legend, 
+#socialmedia legend, #comments legend, #responsebuttons legend {
+	font-weight: normal;
+	font-size: 18px;
+	text-align: left;
+}
+
+fieldset 	{	
+				width:93%;
+		    }
+
+select {
+	margin: 1%;
+	text-align: left;
+	float: left;
+}
+
+textarea {
+	width: 98%;
+	float: left;
+	text-align: left;
+}
+
+
+legend	{
+			font-size: 18px;
+			font-weight: bold;
+			padding-left: 2%;
+			padding-right: 2%;
+			color: #FFFFFF;
+		}
+
+footer 	{
+				background: #D3D3D3;
+				clear: both;
+				padding: 5px 10px;
+				text-align: center;
+				border-top: 4px solid #000000;
+			}
+
+h1 		{
+			margin: 0;
+		}
+
+h2 {
+	text-align: center;
+}
+
+
+footer p 	{
+				margin: 0;
+				font-size: .9em;
+			}
+
+a:link 		{
+				color: #000000;
+			}
+
+a:visited 	{
+				color: #4169E1;
+			}
+
+a:hover 	{
+				color: #CB0000;
+			}
+
+a:active 	{
+				color: #000000;
+			}

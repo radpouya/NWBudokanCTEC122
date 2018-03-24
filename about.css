@@ -1,0 +1,65 @@
+/*
+    Author Name: Pouya Rad
+    Assignment : About Page
+    Due Date   : 08/06/2017
+*/
+
+/* CSS for about.html */
+
+body    {
+            font-family: Verdana, Arial, Helvetica, sans-serif;
+            font-size: 1em;
+            background-color:#ffffff;
+            color:#000000;
+            margin:0;
+            padding:0;
+        }
+
+#header     {
+                text-align: center;
+                background-color: #FF8396;
+                top: -50px;
+                left: -100px;
+                border-width: 5px;
+                border-style: double;
+                border-color: blue;
+                margin-bottom: 3em;
+                color: #FFFFFF;
+            }
+
+#content    {
+                padding: 2em 2em 2em 2em;
+                background-color: #ECF0F1;
+                margin-bottom: 3em;
+            }
+
+#intro  {
+            text-align: center;
+        }
+
+.redtext    {
+                color:  #f60d0b;
+            }
+
+.underline  {
+                text-decoration: underline;
+            }
+
+#sensei {
+            text-align: justify;
+        }
+
+.zac_pic    {
+                float: left;
+                border: 1px solid #000000;
+                margin-right: 1em;
+            }
+
+#location   {
+                text-align: right;
+            }
+
+#footer     {
+                text-align: center;
+
+            }
